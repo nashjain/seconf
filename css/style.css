@@ -203,6 +203,11 @@
                 height: 150px;
             }
 
+            .image.sponsor_logo img
+            {
+                width: 200px;
+            }
+
 			.image.full
 			{
 				display: block;
@@ -1017,7 +1022,7 @@
 				#nav ul li a
 				{
 					display: block;
-					padding: 0.4em 1.5em 0.4em 1.5em;
+					padding: 0.3em 1.5em 0.3em 1.5em;
 					color: rgba(255,255,255,0.5);
 					text-decoration: none;
 					outline: 0;
@@ -1135,3 +1140,11 @@
 		{
 			background-color: #e8edec;
 		}
+
+.sponsors {
+    margin: 1em 0;
+}
+
+.sponsor-desc {
+    text-align: left;
+}
