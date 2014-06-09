@@ -1148,3 +1148,32 @@
 .sponsor-desc {
     text-align: left;
 }
+
+.sponsor_table {
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.sponsor_table > table, th, td {
+    border: 1px solid #c6c6c6;
+    padding: 10px;
+    font-size: 0.9em;
+    vertical-align: middle;
+}
+
+.sponsor_table > table > thead > tr > th {
+    font-size: 1em;
+    background-color: #dbdbdb;
+}
+
+.sponsor_table > table > thead > tr {
+    font-weight: 700;
+}
+
+.sponsor_table .desc {
+    text-align: left;
+}
+
+.stripped_table tr:nth-child(even) {background: #EEE}
+.stripped_table tr:nth-child(odd) {background: #FFF}
